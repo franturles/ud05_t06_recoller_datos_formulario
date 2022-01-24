@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8"/>
+        <title></title>
+    </head>
+    <body>
+        <form action="axente.php" enctype="multipart/form-data" method="post">
+            <p>Nome completo: <input type="text" name="nomeCompleto" /></p>
+            <p>Nome Usuario: <input type="text" name="nomeUsr"/></p>
+            <p>Contrasinal: <input type="password" /></p>
+            <p>Idade: <input type="text" name="idade"/></p>
+            <p>Data de nacemento: <input type="text" name="dNac"/><em>dd/mm/aaaa</em></p>
+            <p>Email:<input type="text" name="Email"/></p>
+            <p>URL da paxina persoal<input type="text" name="url"/></p>
+            <p>IP del equipo:<input type="text" name="ip"/></p>
+            <p>Descricion dos hobbies:<textarea rows="4" cols="20" name="hobbies"></textarea></p>
+            <p>Recibir informacion: <input type="checkbox" name="rcbInfo"/></p>
+            <p>Home <input type="radio" name="sexo" value="home"/>
+            Muler<input type="radio" name="sexo" value="muller"/></p>
+            <p>Linguas extranxeiras:<select name="linguasEs[]" size="5" multiple="multiple">
+                <option selected="selected">Ingles</option>
+                <option>Portugues</option>
+                <option>Frances</option>
+                <option>Italiano</option>
+                <option>Aleman</option>
+            </select></p>
+            <p>Curriculo: <input type="file" name="Curriculo"/></p>
+            <p><input type="submit" value="Submit"/></p>
+        </form>
+
+    </body>
+</html>
