@@ -15,7 +15,7 @@
     echo "<br/> Os valores recibido do menu linguas extranxeiras son: <pre>";
     print_r($_REQUEST["linguasEs"]);
     echo "</pre>";
-    echo "<br/> O nome e o tamaño do arquivo recibido no campo curriculo son ".$_FILES["curriculo"]["name"]."e"
+    echo "<br/> O nome e o tamaño do arquivo recibido no campo curriculo son ".$_FILES["curriculo"]["name"]." e "
     .$_FILES["curriculo"]["size"]." bytes";
     move_uploaded_file($_FILES["curriculo"]["tmp_name"], "subi-dos/".$_FILES["curriculo"]["name"]);
 ?>
