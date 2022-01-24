@@ -5,7 +5,7 @@
     echo "<br/> O valor recibido do campo nome usuario e : ".$_REQUEST["nomeUSR"];
     echo "<br/> O valor recibido do campo contrasinal e : ".$_REQUEST["contrasinal"];
     echo "<br/> O valor recibido do campo idade é : ".$_REQUEST["idade"];
-    echo "<br/> O valor recibido do campo data de nacemento e: "._REQUEST["dNac"];
+    echo "<br/> O valor recibido do campo data de nacemento e: ".$_REQUEST["dNac"];
     echo "<br/> O valor recibido do campo email e: ".$_REQUEST["hobbies"];
     echo "<br/> O valor recibido do campo URL da paxina persoal e:".$_REQUEST["url"];
     echo "<br/> O valor recibido do campo IP do equipo e".$_REQUEST["ip"];
